@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TopTraders</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+
+  <section class="first">
+    <div class="widget-wrapper">
+      <h2>Widget-1</h2>
+      <ta-ratings-widget
+        class="custom-widget"
+        id="rating-widget1"
+        ta-host-prefix="one_"
+        ta-product-host="https://social-ratings.dev.brokeree.dev"
+        ta-assets-path="/widgets/assets"
+        ta-disabled-routing="*"
+        ta-widget-lang="en"
+        ta-widget-theme="light"
+        ta-widget-key="big"
+      >
+      </ta-ratings-widget>
+    </div>
+
+
+    <div class="widget-wrapper">
+      <h2>Widget-2</h2>
+      <ta-ratings-widget
+        class="custom-widget"
+        id="rating-widget1"
+        ta-host-prefix="two_"
+        ta-product-host="https://social-ratings.dev.brokeree.dev"
+        ta-assets-path="/widgets/assets"
+        ta-disabled-routing="*"
+        ta-widget-lang="en"
+        ta-widget-theme="light"
+        ta-widget-key="big2222"
+      >
+      </ta-ratings-widget>
+    </div>
+
+  </section>
+
+  <!-- Ratings script: local server -->
+  <script src="https://social-ratings.dev.brokeree.dev/components/main.js" defer></script>
+</body>
+</html>

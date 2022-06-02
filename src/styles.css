@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+}
+
+.first {
+  display: flex;
+  background: #eee;
+  padding: 30px;
+  height: 100vh;
+}
+
+.widget-wrapper {
+  margin: 10px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 4px;
+  padding: 20px;
+  overflow-x: auto;
+}
