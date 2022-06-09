@@ -4,17 +4,27 @@ body {
   margin: 0;
 }
 
-.first {
+.page-title {
+  padding: 20px 50px;
+}
+
+.w-full {
+  display: flex;
+  padding: 30px;
+  background: #dadada;
+}
+
+.w-half {
   display: flex;
   background: #eee;
   padding: 30px;
-  height: 100vh;
+  height: max-content;
 }
 
 .widget-wrapper {
-  width: 50vw;
+  width: 100%;
   margin: 10px;
-  background: #fff;
+  background: #FAFAFA;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 4px;
   padding: 20px;
